@@ -76,9 +76,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -138,9 +135,6 @@ body {
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
 
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -191,6 +185,8 @@ body {
 .section-subtitle.\:light::before { background-image: url('../images/text-bars-dark.png'); }
 
 .section-title { text-align: center; }
+
+.section-title-card { text-align: center; font-size: x-large; margin-block-end: 12px; }
 
 .h1,
 .h2,
