@@ -277,7 +277,7 @@ body {
   gap: 30px;
   overflow-x: auto;
   scroll-snap-type: inline mandatory;
-  padding-block-end: 20px;
+  padding-block-end: 35px;
 }
 
 .scrollbar-item {
@@ -437,6 +437,14 @@ body {
   margin-right: auto;
 }
 
+.card-number{
+  font-size: xxx-large;
+}
+
+.card-money{
+  padding-top: inherit;
+}
+
 
 
 
@@ -529,7 +537,6 @@ body {
   background-color: var(--white);
   max-width: 90%;
   padding: 30px 10px;
-  margin-block-start: -60px;
   margin-inline: auto;
   position: relative;
   text-align: center;
