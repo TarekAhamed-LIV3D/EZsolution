@@ -431,7 +431,11 @@ body {
     opacity: 0;
   }
 }
-
+.car-pricing{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
