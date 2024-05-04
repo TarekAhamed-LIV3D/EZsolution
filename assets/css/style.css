@@ -578,7 +578,7 @@ body {
 
 .footer .shape { display: none; }
 
-.footer-top { background-color: var(--space-cadet); }
+.footer-top { background-color: dimgray; }
 
 .footer-top .container {
   display: grid;
