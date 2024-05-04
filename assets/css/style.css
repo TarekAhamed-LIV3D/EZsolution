@@ -564,7 +564,9 @@ body {
   border-radius: var(--radius-circle);
 }
 
-
+.review-title{
+  font-size: xx-large;
+}
 
 
 
@@ -1193,7 +1195,7 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 50%;
+    width: 40%;
     pointer-events: none;
     z-index: -1;
   }
