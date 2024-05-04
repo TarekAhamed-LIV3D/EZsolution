@@ -186,7 +186,7 @@ body {
 
 .section-title { text-align: center; }
 
-.section-title-card { text-align: center; font-size: x-large; margin-block-end: 12px; }
+.section-title-card { text-align: center; font-size: x-large; margin-block-end: 12px; margin-block-start: 20px;}
 
 .h1,
 .h2,
@@ -277,7 +277,6 @@ body {
   gap: 30px;
   overflow-x: auto;
   scroll-snap-type: inline mandatory;
-  padding-block-end: 35px;
 }
 
 .scrollbar-item {
