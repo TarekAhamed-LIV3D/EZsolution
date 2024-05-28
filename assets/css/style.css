@@ -186,6 +186,15 @@ body {
 
 .section-title { text-align: center; }
 
+.section-title-padding{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.section-discription{
+  padding-top: 10px;
+}
+
 .section-title-card { text-align: center; font-size: x-large; margin-block-end: 12px; margin-block-start: 20px;}
 
 .h1,
@@ -239,6 +248,10 @@ body {
   transform: translateY(-5px);
   background-color: var(--oxford-blue-3);
   border-color: var(--white);
+}
+
+.btn-call{
+  margin-top: 10px;
 }
 
 .move-anim { animation: moving 2s ease-in-out infinite alternate; }
@@ -299,8 +312,10 @@ body {
 
 .has-scrollbar::-webkit-scrollbar-button { width: 15%; }
 
-
-
+.section-title-card-padding{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 
 /*-----------------------------------*\
@@ -479,9 +494,6 @@ body {
 .service .btn { margin-inline: auto; }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -524,9 +536,6 @@ body {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #WORK
 \*-----------------------------------*/
@@ -535,7 +544,12 @@ body {
 
 .work .section-title { margin-block-end: 24px; }
 
-.work-card { position: relative; }
+.work-card { 
+  position: relative;
+  height: 350px; /* Add a fixed height */
+  display: flex;
+  flex-direction: column;
+}
 
 .work-card .card-content {
   background-color: var(--white);
@@ -544,6 +558,7 @@ body {
   margin-inline: auto;
   position: relative;
   text-align: center;
+  height: 100%;
   box-shadow: var(--shadow);
 }
 
@@ -571,6 +586,24 @@ body {
 
 .review-title{
   font-size: xx-large;
+}
+
+.work-card-brands{
+  background-color: var(--white);
+  max-width: 90%;
+  padding: 30px 10px;
+  margin-inline: auto;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  box-shadow: var(--shadow);
+}
+
+.remote-location{
+  max-height: 50%;
+  max-width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -690,7 +723,7 @@ body {
 \*-----------------------------------*/
 
 /**
- * responsive for large than 575px screen
+ * responsive for large than 400px screen
  */
 
 @media (min-width: 575px) {
@@ -734,6 +767,10 @@ body {
    */
 
   .hero .container { max-width: unset; }
+
+  .section-title-padding{
+    padding-top: 20px;
+  }
 
   .hero-content {
     max-width: 520px;
